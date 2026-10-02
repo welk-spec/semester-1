@@ -27,8 +27,8 @@ input("which one do you wanna see: ")
 if input := "1":
     print(f"the answer is : {result1}")
 
-if input := "2":
+elif input := "2":
     print(f"the answer is : {result2}")
     
-if input := "3":
+elif input := "3":
     print(f"the answer is : {result3}")
