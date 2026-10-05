@@ -14,9 +14,8 @@ print("how much would you like to save every month?")
 # Validate that they have entered an integer.
 try:
     num1 = int(input("i would like to save: "))
-    num1.is_integer()
 except:
-    print("invalid amount")
+    print("Invalid amount")
     exit()
 
 # Calculate the total amount of money they will have saved by the end of the year (amount per month multiplied by 12).
@@ -31,4 +30,5 @@ print(f"by the end of the year you will have saved: £{result}")
 # print this out in the format £X.XX (to two decimal places).
 
 result2 = result * 1.008
+
 print(f"by end of the year, including interest, you will have saved: £{result2:.2f}")
