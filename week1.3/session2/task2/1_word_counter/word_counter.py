@@ -5,7 +5,27 @@
 
 # open and read the file
 
+input = input("Please enter the name of the text file: ")
+if input == "story.txt":
+    with open("story.txt", "r") as file:
+        text = file.read()
+        count = len(text.split())
+        print(count)
+elif input == "story2.txt":
+    with open("story2.txt", "r") as file:
+        text = file.read()
+        count = len(text.split())
+        print(count)
+elif input == "glasses.txt":
+    with open("glasses.txt", "r") as file:
+        text = file.read()
+        count = len(text.split())
+        print(count)
+
 # calculate the number of words
+
+
+
 # hint: you could use .split() to break up by spaces
 # hint: watch out for empty lines that might give you empty strings
 
