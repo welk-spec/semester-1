@@ -7,10 +7,10 @@ num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
 # Use an if statement to compare the two numbers
-
-if XXX: 
+test = num1 > num2
+if test: 
     print("The first number is bigger.")
-elif XXX:  
+elif test: 
     print("The second number is bigger.")
 else:
     print("Both numbers are Equal.")

@@ -21,7 +21,8 @@ def process_data(data):
     """
     if not data:
         return 0
-    return sum(data)
+    else:
+        return sum(data)
 
 # What is output from the following line of code?
 print(process_data([1, 2, 3, 4, 5]))  # 15?

@@ -7,6 +7,6 @@ while fruit:
 	print(fruit.pop())
 
 
-# Why does this work?
+# Why does this work? pop
 
 # What features of Python does it rely on?
