@@ -4,6 +4,9 @@ L = int(input("Length of sequence: ")) # this should be your only input
 
 
 # Your code for the Recaman Sequence
+
+sequence = []
+
 # You should store the sequence in an appropriate data structure named 'sequence'
 
 
