@@ -6,9 +6,16 @@ class Point:
     """
 
     # Add constructor here
-
+    def __init__(self):
+        """
+        asd
+        """
+        
     # Add distance() method here
-
+    def distance(self):
+        """
+        returns distance from this Point to origin
+        """
     # Add distance_to() method here
     # (This will need a parameter representing another point)
 
