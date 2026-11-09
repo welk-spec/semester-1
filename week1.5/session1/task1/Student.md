@@ -4,13 +4,13 @@
 
 ## Attributes
 
-krfk0167
-michael
-compsci
-first year
-comp1850
-comp1860
-comp1870
+student_id
+name
+course
+year
+module
 
 ## Behaviour
 
+get_details()
+module()
