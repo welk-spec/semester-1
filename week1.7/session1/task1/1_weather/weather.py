@@ -2,6 +2,7 @@
 Module of weather-related functions.
 """
 
+
 def comfort_level(temperature):
     """
     Given temperature in degrees Celsius, returns an indication of comfort

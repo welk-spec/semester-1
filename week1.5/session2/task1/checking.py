@@ -17,7 +17,7 @@ class Point:
         if not isinstance(x, (int, float)):
             raise TypeError("x must be a number")
 
-        if not isinstance(y, (int,float)):
+        if not isinstance(y, (int, float)):
             raise TypeError("y must be a number")
 
         self.x = x

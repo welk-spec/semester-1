@@ -36,10 +36,12 @@ class Shape:
 
         self.colour = colour
 
+
 class Circle(Shape):
     """
     A circle, defined by its radius, position and colour.
     """
+
     def __init__(self, radius, position, colour="red"):
         """
         creates a circle with the specified radius, position & colour.
@@ -69,14 +71,13 @@ class Circle(Shape):
         """
         Returns the area of this circle.
         """
-        return math.pi * self.radius ** 2
+        return math.pi * self.radius**2
 
     def perimeter(self):
         """
         Returns the perimeter of this circle.
         """
         return 2 * math.pi * self.radius
-
 
 
 # Implement your Circle class here

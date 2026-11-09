@@ -38,6 +38,7 @@ class Point:
         """
         return f"({self.x},{self.y})"
 
+
 class Circle:
     """
     A circle, with a radius and centre coordinates.

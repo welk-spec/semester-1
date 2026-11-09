@@ -32,7 +32,6 @@ class Point:
         return math.hypot(self.x - p.x, self.y - p.y)
 
 
-
 class Circle:
     """
     A circle, with a radius and centre coordinates.

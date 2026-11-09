@@ -1,7 +1,7 @@
 # Week 4, Session 1
 
-# You are given function process_data with docstring. 
-# Is the function returning the correct value corresponding to the docstring? 
+# You are given function process_data with docstring.
+# Is the function returning the correct value corresponding to the docstring?
 # Which line of code contains the inconsistency?
 
 # Your task is to identify the incorrect line of code and
@@ -24,8 +24,9 @@ def process_data(data):
     else:
         return sum(data)
 
+
 # What is output from the following line of code?
 print(process_data([1, 2, 3, 4, 5]))  # 15?
 
 # How about this one?
-print(process_data([]))               # None?
+print(process_data([]))  # None?

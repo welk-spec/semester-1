@@ -21,5 +21,5 @@ print(test2)
 # Unpack tuple into variables
 
 t = ("apple", "banana", "cherry")
-(first, second, third) = t
+first, second, third = t
 print(first)

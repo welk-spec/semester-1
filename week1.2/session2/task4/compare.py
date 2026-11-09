@@ -8,9 +8,9 @@ num2 = float(input("Enter the second number: "))
 
 # Use an if statement to compare the two numbers
 test = num1 > num2
-if test: 
+if test:
     print("The first number is bigger.")
-elif test: 
+elif test:
     print("The second number is bigger.")
 else:
     print("Both numbers are Equal.")

@@ -1,6 +1,7 @@
 # Example of a class with multiple dunder methods, also showing
 # how classes can delegate work to underlying objects
 
+
 class IntList:
     """
     A list of integers.
@@ -77,7 +78,7 @@ if __name__ == "__main__":
     for number in numbers:
         print(number)
 
-    numbers += 2.5   # this fails, because 2.5 is not an int
+    numbers += 2.5  # this fails, because 2.5 is not an int
 
     # This would also fail, as we've not implemented __setitem__
     numbers[0] = 2

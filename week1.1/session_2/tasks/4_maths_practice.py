@@ -13,7 +13,7 @@ number4 = 2
 number5 = 3
 number6 = 8
 number7 = 3
-result2 = (number4 ** number5) / (number6 / number7)
+result2 = (number4**number5) / (number6 / number7)
 
 # 3: 27^2 x 19/4
 
@@ -21,7 +21,7 @@ number8 = 27
 number9 = 2
 number10 = 19
 number11 = 4
-result3 = (number8 ** number9) * (number10 / number11)
+result3 = (number8**number9) * (number10 / number11)
 
 input("which one do you wanna see: ")
 if input := "1":
@@ -29,6 +29,6 @@ if input := "1":
 
 elif input := "2":
     print(f"the answer is : {result2}")
-    
+
 elif input := "3":
     print(f"the answer is : {result3}")

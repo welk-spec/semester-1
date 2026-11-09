@@ -8,8 +8,7 @@ with open("_data/lateness_data.csv") as f:
 data = [line.strip().split(",") for line in data]
 
 for row in data:
-######### This is the section where you will need to make some changes #############
-
+    ######### This is the section where you will need to make some changes #############
 
     # minutes_late is the number of minutes late a submission was made
     minutes_late = int(row[1])
@@ -17,7 +16,7 @@ for row in data:
     # for each of these, we need to work out how to turn 'minutes_late' into the right value
     # for example: if minutes_late is 2000, then days = 1, hours = 9, minutes = 20
     # hint: there are 1440 minutes in a day (24 * 60)
-    
+
     result1 = minutes_late // 1440
     result2 = minutes_late % 1440 // 60
     result3 = minutes_late % 1440 % 60
@@ -25,6 +24,5 @@ for row in data:
     days = result1
     hours = result2
     minutes = result3
-    
-    print(f"Student {row[0]}: {days}D {hours}H {minutes}M")
 
+    print(f"Student {row[0]}: {days}D {hours}H {minutes}M")

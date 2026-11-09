@@ -3,7 +3,7 @@
 # Open 'student_data.csv' to read each student's grades
 # hint: skip the header row with data[1:]
 
-with open('student_data.csv', 'r') as file:
+with open("student_data.csv", "r") as file:
     data = file.readlines()[1:]
 
 # Read each student's grades and calculate their average grade
@@ -13,7 +13,7 @@ with open('student_data.csv', 'r') as file:
 
 averages = []
 for line in data:
-    student_info = line.strip().split(',')
+    student_info = line.strip().split(",")
     name = student_info[1]
     grades = list(map(int, student_info[2:]))
     average_grade = sum(grades) / len(grades)
@@ -22,7 +22,7 @@ for line in data:
 
 # Open a file called 'report.txt'
 
-with open('report.txt', 'w') as report_file:
+with open("report.txt", "w") as report_file:
     for name, average in averages:
         report_file.write(f"{name}: {average:.2f}\n")
 

@@ -1,12 +1,12 @@
 # Week 1.3, Session 1: For loop equivalent to a list comprehension
 
-animals = ['dog','cat','hamster','goldfish']
+animals = ["dog", "cat", "hamster", "goldfish"]
 
-not_fish = [item for item in animals if item != 'goldfish']
+not_fish = [item for item in animals if item != "goldfish"]
 
 test = []
 for item in animals:
-    if item != 'goldfish':
+    if item != "goldfish":
         test.append(item)
 
 print(not_fish)

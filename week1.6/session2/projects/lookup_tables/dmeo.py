@@ -1,6 +1,5 @@
 from image import Image, ImageError
 
-
 table = [255 - x for x in range(256)]
 print(table)
 

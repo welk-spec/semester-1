@@ -1,5 +1,6 @@
 # from Week 1.5, Session 2: Task 3
 
+
 class Money:
     """
     An amount of money, in British Pounds Sterling.

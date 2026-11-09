@@ -19,8 +19,6 @@ print(calendar.month(2025, 10))
 # output.
 
 
-
-
 # While at https://docs.python.org/3/library/calendar.html, explore
 # the calendar function(calendar.calendar, yes the function is called
 # calendar). The calendar function returns a 3-column calendar for an entire

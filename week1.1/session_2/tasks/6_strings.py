@@ -3,7 +3,7 @@
 
 user_string = input("Enter a string: ")
 
-# this prints the original string when user enters 
+# this prints the original string when user enters
 print(f"\nOriginal String: {user_string}")
 
 # prints user input string, all in lowercase
@@ -50,7 +50,6 @@ print(f"Modified String 14: {user_string.isalpha()}")
 
 # this checks if the string is only numbers, returning either true or false
 print(f"Modified String 15: {user_string.isdigit()}")
-
 
 
 ######

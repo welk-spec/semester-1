@@ -5,4 +5,3 @@ try:
     print(f"{num1} + {num2} = {answer}")
 except:
     print("Please enter numbers only.")
-    

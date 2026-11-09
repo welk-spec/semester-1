@@ -7,7 +7,7 @@ def return_constants():
 
 
 pi, gravity, light_speed = return_constants()
-print(pi, gravity, light_speed, sep=", ")   # # 3.14159, 9.8, 299792458
+print(pi, gravity, light_speed, sep=", ")  # # 3.14159, 9.8, 299792458
 
 
 # code example on slide 14
@@ -19,17 +19,17 @@ def person_info(name, age):
 
 
 name, age, adult = person_info("Bob", 25)
-print(f"Name: {name}")            # Name: BOB
+print(f"Name: {name}")  # Name: BOB
 print(f"Age in 10 years: {age}")  # Age in 10 years: 35
-print(f"Is adult: {adult}")       # Is adult: True
+print(f"Is adult: {adult}")  # Is adult: True
 
 
 # code example on slide 15
 def person_info(name, age):
     info = {}
-    info['name'] = name.upper()
-    info['age_in_10_years'] = age + 10
-    info['is_adult'] = age >= 18
+    info["name"] = name.upper()
+    info["age_in_10_years"] = age + 10
+    info["is_adult"] = age >= 18
     return info
 
 
@@ -45,5 +45,5 @@ def demo(number):
         return "value1"
 
 
-print(demo(5))       # value1
-print(demo(-1))      # ('value1', 'value2', 'value3')
+print(demo(5))  # value1
+print(demo(-1))  # ('value1', 'value2', 'value3')

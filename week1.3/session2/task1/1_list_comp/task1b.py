@@ -1,6 +1,6 @@
 # Week 1.3, Session 1: Task 6b
 
-values = [1,4,2,6,3,7]
+values = [1, 4, 2, 6, 3, 7]
 
 print(values)
 

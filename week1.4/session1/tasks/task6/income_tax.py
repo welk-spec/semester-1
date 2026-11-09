@@ -36,7 +36,7 @@ def income_tax_calculator(annual_income):
 
 
 # Check if the following lines produce the correct output
-print(income_tax_calculator(12000))     # 0.0
-print(income_tax_calculator(14000))     # 286.0
-print(income_tax_calculator(25000))     # 2486.0
-print(income_tax_calculator(100000))    # 27432.0
+print(income_tax_calculator(12000))  # 0.0
+print(income_tax_calculator(14000))  # 286.0
+print(income_tax_calculator(25000))  # 2486.0
+print(income_tax_calculator(100000))  # 27432.0

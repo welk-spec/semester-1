@@ -2,10 +2,12 @@
 
 from datetime import date
 
+
 class Person:
     """
     A Person, with a name and a date of birth.
     """
+
     def __init__(self, name: str, birth: date):
         """
         Creates a person, with given name and date of birth.
@@ -34,6 +36,7 @@ class Person:
         """
         today = date.today()
         return today.month == self.birth.month and today.day == self.birth.day
+
     # Write a constructor here to create and initialize name and
     # birth fields (see README.md for further details)
 

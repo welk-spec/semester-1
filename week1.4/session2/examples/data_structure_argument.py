@@ -5,7 +5,7 @@ def test(x, intList):
 
 
 list1 = [2, 4, 6, 8]
-print(list1)             # [2, 4, 6, 8]
+print(list1)  # [2, 4, 6, 8]
 print(test(500, list1))  # [2, 4, 6, 8, 500]
 print(list1)
 
@@ -18,6 +18,6 @@ def test2(x, intList):
 
 
 list2 = [1, 2, 3, 4]
-print(list2)             # [1, 2, 3, 4]
-print(test2(5, list2))   # [1, 2, 3, 4, 5]
-print(list2)             # [1, 2, 3, 4]
+print(list2)  # [1, 2, 3, 4]
+print(test2(5, list2))  # [1, 2, 3, 4, 5]
+print(list2)  # [1, 2, 3, 4]

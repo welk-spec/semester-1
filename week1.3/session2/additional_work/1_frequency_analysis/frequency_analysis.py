@@ -3,7 +3,7 @@
 # Frequency analysis is a method of breaking certain ciphers which involves counting the frequency of letters/symbols
 # because English has quite a clear distribution of letters, with spikes on common letters such as 'e', 'i' and 's'
 
-# open and read the file 
+# open and read the file
 # and count how many instances of each letter are in the program
 # hint: use a dictionary!
 

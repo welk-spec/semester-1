@@ -1,6 +1,6 @@
 # Week 1.3, Session 2: Word Counter
 
-# We want to read in a text file, and calculate how many words are in it. 
+# We want to read in a text file, and calculate how many words are in it.
 # You can use any of the .txt files to test this - or even make your own.
 
 # open and read the file
@@ -23,7 +23,6 @@ elif input == "glasses.txt":
         print(count)
 
 # calculate the number of words
-
 
 
 # hint: you could use .split() to break up by spaces

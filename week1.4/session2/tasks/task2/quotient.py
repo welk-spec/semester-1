@@ -1,8 +1,9 @@
 # Week 4, Session 2: Task 2
 
 # Given an incomplete function divide_and_remainder with a docstring.
-# Your task is to complete the function based on the details in the 
+# Your task is to complete the function based on the details in the
 # docstring.
+
 
 def divide_and_remainder(dividend, divisor):
     """
@@ -23,9 +24,10 @@ def divide_and_remainder(dividend, divisor):
     # Returning both quotient and remainder
     return quotient, remainder
 
+
 # Check if correct output is produced
 quotient, remainder = divide_and_remainder(10, 3)
-print(f"Quotient: {quotient}")    # Output: Quotient: 3
+print(f"Quotient: {quotient}")  # Output: Quotient: 3
 print(f"Remainder: {remainder}")  # Output: Remainder: 1
 
 # Directly print the returned tuple

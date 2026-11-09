@@ -10,7 +10,7 @@ if not numbers:
 
 minimum = min(numbers)
 maximum = max(numbers)
-mean = sum(numbers) / len(numbers)   
+mean = sum(numbers) / len(numbers)
 
 numbers.sort()
 n = len(numbers)

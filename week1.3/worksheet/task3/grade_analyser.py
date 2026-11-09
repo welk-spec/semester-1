@@ -9,7 +9,6 @@
 # read in the data, and for each student calculate their average grade and classification
 
 
-
 # write out this calculated data in the format without a header:
 #      student_id,average_grade,classification - replace this with actual value
 #      The average grade should be given to 2 decimal places

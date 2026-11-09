@@ -1,9 +1,11 @@
 # Worksheet 1.5: Rectangle Class
 
+
 class Rectangle:
     """
     A rectangle, with a width and a height.
     """
+
     def __init__(self, width, height):
         """
         Creates a Rectangle, given values for width and height.

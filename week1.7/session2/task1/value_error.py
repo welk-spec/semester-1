@@ -5,4 +5,4 @@
 user_profile = {"username": "alice99", "role": "admin"}
 
 for key, value in user_profile:
-	print(f"{key} : {value}")
+    print(f"{key} : {value}")

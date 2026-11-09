@@ -1,6 +1,13 @@
 # Week 1.3, Session 2: Email Extractor
 
-raw_emails = ["UserA@gmail.com", "admin@site.com", "usera@gmail.com", "UserB@yahoo.com", "admin@site.com", "SYSTEM_ALERT"]
+raw_emails = [
+    "UserA@gmail.com",
+    "admin@site.com",
+    "usera@gmail.com",
+    "UserB@yahoo.com",
+    "admin@site.com",
+    "SYSTEM_ALERT",
+]
 # set comprehension to extract a clean, unique set of lowercase email addresses
 
 clean = {s.lower() for s in raw_emails}

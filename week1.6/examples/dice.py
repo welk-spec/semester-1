@@ -7,6 +7,7 @@ class Die:
     """
     A die used in gaming.
     """
+
     def __init__(self, sides):
         """
         Creates a Die object with the given number of sides.
@@ -38,6 +39,7 @@ class D6(Die):
     """
     A six-sided die.
     """
+
     def __init__(self):
         # Note the syntax for invoking superclass constructor!
         super().__init__(6)
@@ -47,6 +49,7 @@ class D20(Die):
     """
     A twenty-sided die.
     """
+
     def __init__(self):
         super().__init__(20)
 

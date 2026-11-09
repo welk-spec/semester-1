@@ -1,11 +1,11 @@
 """
-    THIS IS NOT FOR BEGINNER, PLEASE IGNORE THIS TASK IF YOU ARE
-    NEW TO PROGRAMMING.
+THIS IS NOT FOR BEGINNER, PLEASE IGNORE THIS TASK IF YOU ARE
+NEW TO PROGRAMMING.
 
-    Complete the folllowing function that takes a mathematical expression
-    as a string and evaluates it. This function allows for an arbitrary number
-    of keyword arguments using **kwargs, and provide default values for
-    variable x, and y if they are not provided.
+Complete the folllowing function that takes a mathematical expression
+as a string and evaluates it. This function allows for an arbitrary number
+of keyword arguments using **kwargs, and provide default values for
+variable x, and y if they are not provided.
 """
 
 

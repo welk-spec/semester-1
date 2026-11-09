@@ -99,7 +99,9 @@ class Image:
             raise ImageError("number of pixels doesn't match image dimensions")
 
         if any(p < 0 or p > self.max_value for p in self.pixels):
-            raise ImageError(f"pixel value outside allowed range (0 to {self.max_value})")
+            raise ImageError(
+                f"pixel value outside allowed range (0 to {self.max_value})"
+            )
 
     def __getitem__(self, index):
         """
@@ -149,6 +151,6 @@ class Image:
     def _write_pixels(self, imgfile):
         for row in range(self.height):
             start = row * self.width
-            for value in self.pixels[start:start + self.width]:
+            for value in self.pixels[start : start + self.width]:
                 print(f"{value:4d}", end="", file=imgfile)
             print(file=imgfile)

@@ -1,11 +1,6 @@
 # Week 1.3, Session 1: Task 5b
 
-rivers = {
-  "London": "Thames", 
-  "Leeds": "Aire", 
-  "Liverpool": "Mersey",
-  "York": "Ouse"
-}
+rivers = {"London": "Thames", "Leeds": "Aire", "Liverpool": "Mersey", "York": "Ouse"}
 
 # loop through the dict extracting key and value
 

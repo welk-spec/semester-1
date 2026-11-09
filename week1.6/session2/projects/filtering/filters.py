@@ -1,5 +1,6 @@
 from image import Image, ImageError
 
+
 def blur(img):
     """
     Blurs the given image by averaging each pixel with its neighbors.
@@ -19,5 +20,3 @@ def blur(img):
             new_img.set(row, col, average)
 
     return new_img
-
-    

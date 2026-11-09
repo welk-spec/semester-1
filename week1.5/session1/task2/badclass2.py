@@ -3,6 +3,7 @@
 # What does the runtime error mean?
 # How do we fix the code?
 
+
 class Point:
     """
     A point in 2D space.
