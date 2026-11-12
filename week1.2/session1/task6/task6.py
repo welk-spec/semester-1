@@ -6,10 +6,14 @@ from pprint import pprint
 # (keys are artist names, values are lists of album names)
 
 music = {
-    "Massive Attack": "Mezzanine", "Blue Lines", 
-    "1": "2",
+    "Massive Attack": ["Mezzanine", "Blue_Lines"],
 }
 
 # Pretty-print the data structure
 
+pprint(music)
+
 # Display details of one album recorded by a specific artist
+artist = "Massive Attack"
+album = "Mezzanine"
+print(f"Album: {album}, Artist: {artist}")

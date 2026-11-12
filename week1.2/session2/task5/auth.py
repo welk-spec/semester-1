@@ -16,7 +16,6 @@ password = input("Enter your password: ")
 # Conditional block for login authentication
 wrong_username = username != correct_username
 wrong_password = password != correct_password
-correct_2fa_code = two_factor_code
 
 if not wrong_username and not wrong_password:
     if two_factor_enabled:
