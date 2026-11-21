@@ -9,6 +9,8 @@ def assign_values(x):
 
 
 if __name__ == "__main__":
-    data = [0] * 10
+
+    data = [0] * 100
     assign_values(data)
+    print(data)
     print("Done!")
