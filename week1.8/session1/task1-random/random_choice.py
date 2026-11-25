@@ -6,6 +6,14 @@ with open("names.txt") as infile:
     names = [ line.strip() for line in infile ]
 
 # Ask user to enter a number, then randomly choose that many names
+
+number = int(input("Enter the number of names to choose: ")) # Ensuring input is integer
+
 # from the list, avoiding any duplicate choices
 
+chosen_names = random.sample(names, number) # Randomly select unique names
+
 # Display the chosen names, one per line
+
+for name in chosen_names:
+    print(name)
