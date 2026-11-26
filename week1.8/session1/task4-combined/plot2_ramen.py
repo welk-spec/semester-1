@@ -19,6 +19,13 @@ def show_histogram_of_ramen_scores(data):
     '''
     Create a histogram to show the distribution of numbers of stars given to ramen.
     '''
+    ratings = pd.to_numeric(data["Stars"], errors="coerce").dropna().round(1)
+    plt.figure(figsize=(10, 6))
+    plt.hist(ratings, bins=10, color="#eff542")
+    plt.xlabel("Rating")
+    plt.ylabel("Frequency")
+    plt.title("Distribution of Ramen Ratings")
+    plt.show()
     pass
 
 def show_bar_chart_stars_per_manufacturer(data):

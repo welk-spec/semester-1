@@ -20,7 +20,7 @@ print(shop_data.head())
 
 shop_data["Total_Price"] = shop_data["Units_Sold"] * shop_data["Unit_Price"]
 
-# Step 3: In order to make our first graph, we want to group everything together by Dat
+# Step 3: In order to make our first graph, we want to group everything together by Date
 
 # we need to group by the Date - this joins all the rows with the same date together
 # .sum() tells Pandas to add together all the values - this means we can easily get the sales/day.
